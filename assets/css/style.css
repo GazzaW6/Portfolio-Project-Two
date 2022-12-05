@@ -23,26 +23,39 @@ body {
 
 .title {
     grid-area: title;
-    background: #DE3C4B;
+    color: #DE3C4B;
 }
 
 .computer-area {
     grid-area: computer-area;
-    background-color: #000022;
+    color: #000022;
 }
 .user-area {
     grid-area: user-area;
-    background-color: #E28413;
+    color: #E28413;
 }
 .result-area {
     grid-area: result-area;
     background-color: #C42847;
 }
-.buttons-area {
+.button-area {
     grid-area: buttons-area;
     background-color: #000022;
+    margin:auto;
 }
 .rules-area {
     grid-area: rules-area;
-    background-color: #FBF5F3;
+    background-color: #E28413;
+}
+.button{
+    padding:10px;
+    margin: 25px;
+    border-radius: 12px;
+}
+
+/* image styling*/
+
+#rockpic {
+    width:200px;
+    height: auto;
 }
