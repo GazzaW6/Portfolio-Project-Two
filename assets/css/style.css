@@ -1,0 +1,48 @@
+body {
+    margin: 2%;
+    padding: 0;
+    background-color: #FBF5F3;
+    text-align: center;
+}
+
+/* add styling for main div elements on page*/
+.grid {
+    height:100vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    
+    "title title"
+    "computer-area user-area"
+    "result-area result-area"
+    "buttons-area buttons-area"
+    "rules-area rules-area"
+    ;
+}
+
+.title {
+    grid-area: title;
+    background: #DE3C4B;
+}
+
+.computer-area {
+    grid-area: computer-area;
+    background-color: #000022;
+}
+.user-area {
+    grid-area: user-area;
+    background-color: #E28413;
+}
+.result-area {
+    grid-area: result-area;
+    background-color: #C42847;
+}
+.buttons-area {
+    grid-area: buttons-area;
+    background-color: #000022;
+}
+.rules-area {
+    grid-area: rules-area;
+    background-color: #FBF5F3;
+}
