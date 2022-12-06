@@ -7,7 +7,7 @@ body {
 
 /* add styling for main div elements on page*/
 .grid {
-    height:100vh;
+    height:90vh;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -36,26 +36,32 @@ body {
 }
 .result-area {
     grid-area: result-area;
-    background-color: #C42847;
+    color: #C42847;
 }
 .button-area {
     grid-area: buttons-area;
-    background-color: #000022;
     margin:auto;
 }
 .rules-area {
     grid-area: rules-area;
-    background-color: #E28413;
+    color: #E28413;
 }
 .button{
     padding:10px;
     margin: 25px;
     border-radius: 12px;
+    background-color:#000022;
+    color:#FBF5F3;
 }
 
 /* image styling*/
 
-#rockpic {
+#computer-image{
+    width:200px;
+    height: auto;
+}
+
+#user-image{
     width:200px;
     height: auto;
 }

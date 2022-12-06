@@ -15,6 +15,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
   userChoiceDisplay.innerHTML = userChoice
   generateComputerChoice()
   getResult()
+  changeImage()
 }));
 
 //generate a random computer choice //
@@ -22,7 +23,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
 function generateComputerChoice() {
     const randomNumber = Math.floor(Math.random() * possibleChoices.length)
     if (randomNumber === 0) {
-      computerChoice = "Rock"
+      computerChoice = 'Rock'
     }
     if (randomNumber === 1) {
       computerChoice = 'Scissors'
@@ -49,60 +50,143 @@ function getResult() {
 
     if (computerChoice === "Rock" && userChoice === "Paper") {
       result = "You win!"
+      var image= document.getElementById("computer-image")
+      image.src="assets/images/rock.png";
+      var image=document.getElementById("user-image")
+      image.src="assets/images/paper.png";
     }
     if (computerChoice === "Rock" && userChoice === "Scissors") {
       result = "You lost! Try again."
+      var image= document.getElementById("computer-image")
+      image.src="assets/images/rock.png";
+      var image=document.getElementById("user-image")
+      image.src="assets/images/scissors.png";
     }
     if (computerChoice === "Rock" && userChoice === "Lizard") {
         result = "You lost! Try again."
+        var image= document.getElementById("computer-image")
+        image.src="assets/images/rock.png";
+        var image=document.getElementById("user-image")
+        image.src="assets/images/lizard.png";
       }
       if (computerChoice === "Rock" && userChoice === "Spock") {
         result = "You win!"
+        var image= document.getElementById("computer-image")
+        image.src="assets/images/rock.png";
+        var image=document.getElementById("user-image")
+        image.src="assets/images/spock.png";
       }
     if (computerChoice === "Paper" && userChoice === "Scissors") {
       result = "You win!"
+      var image= document.getElementById("computer-image")
+      image.src="assets/images/paper.png";
+      var image=document.getElementById("user-image")
+      image.src="assets/images/scissors.png";
     }
     if (computerChoice === 'Paper' && userChoice === "Rock") {
       result = "You lost! Try again."
+      var image= document.getElementById("computer-image")
+      image.src="assets/images/paper.png";
+      var image=document.getElementById("user-image")
+      image.src="assets/images/rock.png";
     }
     if (computerChoice === 'Paper' && userChoice === "Lizard") {
         result = "You win!"
+        var image= document.getElementById("computer-image")
+        image.src="assets/images/paper.png";
+        var image=document.getElementById("user-image")
+        image.src="assets/images/lizard.png";
       }
       if (computerChoice === 'Paper' && userChoice === "Spock") {
         result = "You lost! Try again."
+        var image= document.getElementById("computer-image")
+        image.src="assets/images/paper.png";
+        var image=document.getElementById("user-image")
+        image.src="assets/images/spock.png";
       }
     if (computerChoice === 'Scissors' && userChoice === "Rock") {
       result = "You win!"
+      var image= document.getElementById("computer-image")
+      image.src="assets/images/scissors.png";
+      var image=document.getElementById("user-image")
+      image.src="assets/images/rock.png";
     }
     if (computerChoice === 'Scissors' && userChoice === "Paper") {
       result = "You lost! Try again."
+      var image= document.getElementById("computer-image")
+      image.src="assets/images/scissors.png";
+      var image=document.getElementById("user-image")
+      image.src="assets/images/paper.png";
     }
     if (computerChoice === 'Scissors' && userChoice === "Lizard") {
         result = "You lost! Try again."
+        var image= document.getElementById("computer-image")
+        image.src="assets/images/scissors.png";
+        var image=document.getElementById("user-image")
+        image.src="assets/images/lizard.png";
+      }
+      if (computerChoice === 'Scissors' && userChoice === "Spock") {
+        result = "You lost! Try again."
+        var image= document.getElementById("computer-image")
+        image.src="assets/images/scissors.png";
+        var image=document.getElementById("user-image")
+        image.src="assets/images/spock.png";
       }
     if (computerChoice === 'Lizard' && userChoice === "Spock") {
         result = "You lost! Try again."
+        var image= document.getElementById("computer-image")
+        image.src="assets/images/lizard.png";
+        var image=document.getElementById("user-image")
+        image.src="assets/images/spock.png";
     }
     if (computerChoice === 'Lizard' && userChoice === "Paper") {
         result = "You lost! Try again."
+        var image= document.getElementById("computer-image")
+        image.src="assets/images/lizard.png";
+        var image=document.getElementById("user-image")
+        image.src="assets/images/paper.png";
     }
     if (computerChoice === 'Lizard' && userChoice === "Rock") {
         result = "You win!"
+        var image= document.getElementById("computer-image")
+        image.src="assets/images/lizard.png";
+        var image=document.getElementById("user-image")
+        image.src="assets/images/rock.png";
     }
     if (computerChoice === 'Lizard' && userChoice === "Scissors") {
         result = "You win!"
+        var image= document.getElementById("computer-image")
+        image.src="assets/images/lizard.png";
+        var image=document.getElementById("user-image")
+        image.src="assets/images/scissors.png";
     }
     if (computerChoice === 'Spock' && userChoice === "Lizard") {
         result = "You win! "
+        var image= document.getElementById("computer-image")
+        image.src="assets/images/spock.png";
+        var image=document.getElementById("user-image")
+        image.src="assets/images/lizard.png";
     }
     if (computerChoice === 'Spock' && userChoice === "Paper") {
         result = "You win! "
+        var image= document.getElementById("computer-image")
+        image.src="assets/images/spock.png";
+        var image=document.getElementById("user-image")
+        image.src="assets/images/paper.png";
     }
     if (computerChoice === 'Spock' && userChoice === "Rock") {
         result = "You lost! Try again."
+        var image= document.getElementById("computer-image")
+        image.src="assets/images/spock.png";
+        var image=document.getElementById("user-image")
+        image.src="assets/images/rock.png";
     }
     if (computerChoice === 'Spock' && userChoice === "Scissors") {
         result = "You lost! Try again."
+        var image= document.getElementById("computer-image")
+        image.src="assets/images/spock.png";
+        var image=document.getElementById("user-image")
+        image.src="assets/images/scissors.png";
     }
 
     resultDisplay.innerHTML = result
