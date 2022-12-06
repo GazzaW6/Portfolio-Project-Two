@@ -41,13 +41,16 @@ function generateComputerChoice() {
     computerChoiceDisplay.innerHTML = computerChoice
   }
   
-  //get result of game //
+  //get result of game and image sources//
 
 function getResult() {
     if (computerChoice === userChoice) {
       result = "It's a draw!"
+      var image= document.getElementById("computer-image")
+      image.src="assets/images/cover image.png";
+      var image=document.getElementById("user-image")
+      image.src="assets/images/cover image.png";
     }
-
     if (computerChoice === "Rock" && userChoice === "Paper") {
       result = "You win!"
       var image= document.getElementById("computer-image")
@@ -188,6 +191,7 @@ function getResult() {
         var image=document.getElementById("user-image")
         image.src="assets/images/scissors.png";
     }
+
 
     resultDisplay.innerHTML = result
   }
