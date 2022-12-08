@@ -75,7 +75,7 @@ function getResult() {
         var image=document.getElementById("user-image");
         image.src="assets/images/lizard.png";
       }
-      if (computerChoice === "Rock" && userChoice === "Spock") {
+    if (computerChoice === "Rock" && userChoice === "Spock") {
         result = "You win!";
         var image= document.getElementById("computer-image");
         image.src="assets/images/rock.png";
@@ -103,7 +103,7 @@ function getResult() {
         var image=document.getElementById("user-image");
         image.src="assets/images/lizard.png";
       }
-      if (computerChoice === 'Paper' && userChoice === "Spock") {
+    if (computerChoice === 'Paper' && userChoice === "Spock") {
         result = "You lost! Try again.";
         var image= document.getElementById("computer-image");
         image.src="assets/images/paper.png";
@@ -131,7 +131,7 @@ function getResult() {
         var image=document.getElementById("user-image");
         image.src="assets/images/lizard.png";
       }
-      if (computerChoice === 'Scissors' && userChoice === "Spock") {
+    if (computerChoice === 'Scissors' && userChoice === "Spock") {
         result = "You lost! Try again.";
         var image= document.getElementById("computer-image");
         image.src="assets/images/scissors.png";
@@ -194,7 +194,5 @@ function getResult() {
         var image=document.getElementById("user-image");
         image.src="assets/images/scissors.png";
     }
-
-
     resultDisplay.innerHTML = result;
   }
