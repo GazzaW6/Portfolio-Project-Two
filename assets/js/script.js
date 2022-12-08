@@ -22,7 +22,7 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
 //generate a random computer choice //
 
 function generateComputerChoice() {
-    const randomNumber = Math.floor(Math.random() * possibleChoices.length)
+    const randomNumber = Math.floor(Math.random() * possibleChoices.length);
     if (randomNumber === 0) {
       computerChoice = 'Rock';
     }
@@ -39,24 +39,27 @@ function generateComputerChoice() {
         computerChoice = 'Lizard';
     } 
 
-    computerChoiceDisplay.innerHTML = computerChoice
+    computerChoiceDisplay.innerHTML = computerChoice;
   }
   
   //get result of game and image sources//
 
+  var image= document.getElementById("computer-image");
+  var image=document.getElementById("user-image");
+
 function getResult() {
     if (computerChoice === userChoice) {
       result = "It's a draw!";
-      var image= document.getElementById("computer-image");
+      image;
       image.src="assets/images/cover-image.png";
-      var image=document.getElementById("user-image");
+      image;
       image.src="assets/images/cover-image.png";
     }
     if (computerChoice === "Rock" && userChoice === "Paper") {
       result = "You win!";
-      var image= document.getElementById("computer-image");
+      image
       image.src="assets/images/rock.png";
-      var image=document.getElementById("user-image");
+      image
       image.src="assets/images/paper.png";
     }
     if (computerChoice === "Rock" && userChoice === "Scissors") {
