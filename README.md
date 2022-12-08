@@ -43,6 +43,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing 
 
+The site was tested on a Macbook Air 2013 as well as a Samsung Galaxy S21 and Iphone 14 pro.
+
 ### Validator Testing 
 
 - HTML
@@ -54,7 +56,7 @@ In addition, you may also use this section to discuss plans for additional featu
     - ![CSS validation](https://user-images.githubusercontent.com/111531426/206559012-720c4d09-60f0-4650-bd03-ca84839a67a1.png)
 
 - JavaScript
-    - No errors were found when passing through the official [Jshint validator](https://jshint.com/)
+    - No errors were found when passing through the official [Jshint validator](https://jshint.com/). There were 55 warnings however. This does not affect the operating of the site based off the testing conducted.
       - The following metrics were returned: 
       - There are 4 functions in this file.
       - Function with the largest signature take 1 arguments, while the median is 0.5.
@@ -62,8 +64,7 @@ In addition, you may also use this section to discuss plans for additional featu
       - The most complex function has a cyclomatic complexity value of 42 while the median is 3.5.
 
 ### Unfixed Bugs
-
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+There are no bugs evident in the code. However, there are warning in the Javascript that will require addressing as my comprehension of the content becomes clearer.
 
 ## Deployment
 
