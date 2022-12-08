@@ -6,21 +6,17 @@ Rock, Paper, Scissors, Lizard, Spock is a site that I produced to illustrate the
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
-- __The Love Maths Logo and Heading__
+- __The Rock, Paper, Scissors, Lizard, Spock Heading__
 
-  - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
-
-![Logo](media/love_maths_logo.png)
+  - Featured at the top of the page, the LRock, Paper, Scissors, Lizard, Spock heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
 - __The Game Area__
 
-  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
-  - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
-
+  - This section will allow the user to play the game. The user will first see an image of all the different options that they can choose.
+  - The user will be able to make a selection from five different options by clicking one of five buttons. 
+  
 ![Game](media/love_maths_icons.png)
 
 - __The Question section__
