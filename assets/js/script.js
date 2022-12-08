@@ -43,9 +43,6 @@ function generateComputerChoice() {
   
   //get result of game and image sources//
 
-  var image= document.getElementById("computer-image");
-  var image=document.getElementById("user-image");
-
 function getResult() {
     if (computerChoice === userChoice) {
       result = "It's a draw!";
