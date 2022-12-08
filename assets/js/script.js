@@ -16,7 +16,6 @@ possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click
   userChoiceDisplay.innerHTML = userChoice;
   generateComputerChoice();
   getResult();
-  changeImage();
 }));
 
 //generate a random computer choice //
@@ -50,16 +49,16 @@ function generateComputerChoice() {
 function getResult() {
     if (computerChoice === userChoice) {
       result = "It's a draw!";
-      image;
+      var image= document.getElementById("computer-image");
       image.src="assets/images/cover-image.png";
-      image;
+      var image=document.getElementById("user-image");
       image.src="assets/images/cover-image.png";
     }
     if (computerChoice === "Rock" && userChoice === "Paper") {
       result = "You win!";
-      image
+      var image= document.getElementById("computer-image");
       image.src="assets/images/rock.png";
-      image
+      var image=document.getElementById("user-image");
       image.src="assets/images/paper.png";
     }
     if (computerChoice === "Rock" && userChoice === "Scissors") {
