@@ -2,7 +2,8 @@
 
 Rock, Paper, Scissors, Lizard, Spock is a site that I produced to illustrate the functionality of javascript in a real world context through the development of a game of chance that creates random results. Rock, Paper, Scissors, Lizard, Spock is a fully responsive game that allows users to select either  Rock, Paper, Scissors, Lizard or Spock and play against the computer.
 
-![Responsice Mockup](media/love_maths_mockup.png)
+![Responsive design](https://user-images.githubusercontent.com/111531426/206395527-991290c8-edf0-442f-9053-934ab3595e91.png)
+
 
 ## Features 
 
@@ -12,25 +13,25 @@ Rock, Paper, Scissors, Lizard, Spock is a site that I produced to illustrate the
 
   - Featured at the top of the page, the LRock, Paper, Scissors, Lizard, Spock heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
+![Title](https://user-images.githubusercontent.com/111531426/206396576-409c8d59-5866-4824-9f2d-f7116f4b5444.png)
+
+
 - __The Game Area__
 
   - This section will allow the user to play the game. The user will first see an image of all the different options that they can choose.
-  - The user will be able to make a selection from five different options by clicking one of five buttons. 
-  
-![Game](media/love_maths_icons.png)
+  - The user will be able to make a selection from five different options by clicking one of five buttons.
 
-- __The Question section__
+![Game area](https://user-images.githubusercontent.com/111531426/206396211-11871c6a-33b8-4d5a-b0c4-1caabed17c0a.png)
 
-  - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
-  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
 
-![Question](media/love_maths_question.png)
+- __The Rules section__
 
-- __The Score Area__
+  - The rules section is where the user will be able to get an overview of the game and as well as understand the rules. 
+  - The user can then refer to the games are to click the appropriate button to match their selection.
 
-  - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
+![Rules area](https://user-images.githubusercontent.com/111531426/206396410-6d1b1e62-9269-431a-b11e-3cedcf3150c5.png)
 
-![score](media/love_maths_answer.png)
+
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
