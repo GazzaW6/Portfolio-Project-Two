@@ -48,9 +48,9 @@ function getResult() {
     if (computerChoice === userChoice) {
       result = "It's a draw!";
       var image= document.getElementById("computer-image");
-      image.src="assets/images/cover image.png";
+      image.src="assets/images/cover-image.png";
       var image=document.getElementById("user-image");
-      image.src="assets/images/cover image.png";
+      image.src="assets/images/cover-image.png";
     }
     if (computerChoice === "Rock" && userChoice === "Paper") {
       result = "You win!";
