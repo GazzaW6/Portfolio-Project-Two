@@ -1,3 +1,4 @@
+//based off lesson from "Code with Ania Kubów" - https://www.youtube.com/watch?v=RwFeg0cEZvQ//
 
 let computerChoiceDisplay= document.getElementById("computer-choice");
 let userChoiceDisplay= document.getElementById("user-choice");
