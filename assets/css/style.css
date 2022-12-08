@@ -2,7 +2,7 @@
 
 body {
 
-    margin: 2%;
+    margin: 1%;
     padding: 0;
     background-color: #FBF5F3;
     text-align: center;
@@ -10,7 +10,7 @@ body {
 
 /* add styling for main div elements on page*/
 .grid {
-    height:80vh;
+    height:90vh;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -161,5 +161,14 @@ p{
         font-family: 'Silkscreen', cursive, sans-serif;
         font-size: 1em;
         letter-spacing: 1px;
+    }
+
+    .button{
+        padding:10px;
+        margin: 10px;
+        border-radius: 12%;
+        background-color:#FBF5F3;
+        color:#000022;
+        border: 3px solid #DE3C4B;
     }
 }
