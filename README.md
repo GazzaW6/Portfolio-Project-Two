@@ -43,12 +43,13 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing 
 
-The site was tested on a Macbook Air 2013 as well as a Samsung Galaxy S21 and Iphone 14 pro.
+The website was tested and run on a Macbook Air 2013 as well as a Samsung Galaxy S21 and Iphone 14 pro. No issues were observed and the site ran as intended.
 
 ### Validator Testing 
 
 - HTML
-    - The following errors were raised during validation through the official [W3C validator].
+    - No errors were found when passing through the official Html validator[W3C validator].
+    - The following warnngs were raised during validation through the official [W3C validator].
     - ![html erros](https://user-images.githubusercontent.com/111531426/206406046-612b8130-c972-42af-905c-64d57e792b54.png)
 
 - CSS
@@ -82,7 +83,7 @@ The live link can be found here - https://gazzaw6.github.io/Portfolio-Project-Tw
 
 ### Content 
 
-- Instructions on how to implement various functions were adapted from Code with Ania Kubów lesson on how to create Rock, paper, scissors (https://www.youtube.com/watch?v=RwFeg0cEZvQ)
+- Instructions on how to implement various functions were adapted from Code with Ania Kubów lesson on how to create Rock, paper, scissors (https://www.youtube.com/watch?v=RwFeg0cEZvQ).
 - The favicon was created using "The best Favicon Generator (completely free)" - favicon.iohttps://favicon.io
 
 ### Media
